@@ -221,6 +221,10 @@ dialogs:
         title: Demo version
         desc: Your game has been saved, but you will not be able to restore it in the demo. Restoring your savegames is only possible in the full version. Are you sure?
 
+    newUpdate:
+        title: Update available
+        desc: There is an update for this game available, be sure to download it!
+
     oneSavegameLimit:
         title: Limited savegames
         desc: You can only have one savegame at a time in the demo version. Please remove the existing one or get the standalone!
@@ -249,14 +253,14 @@ dialogs:
     blueprintsNotUnlocked:
         title: Not unlocked yet
         desc: >-
-            Complete level 12 to unlock Blueprints!
+            Blueprints have not been unlocked yet! Complete more levels to unlock them.
 
     keybindingsIntroduction:
         title: Useful keybindings
         desc: >-
             This game has a lot of keybindings which make it easier to build big factories.
             Here are a few, but be sure to <strong>check out the keybindings</strong>!<br><br>
-            <code class='keybinding'>CTRL</code> + Drag: Select area to delete.<br>
+            <code class='keybinding'>CTRL</code> + Drag: Select area to copy / delete.<br>
             <code class='keybinding'>SHIFT</code>: Hold to place multiple of one building.<br>
             <code class='keybinding'>ALT</code>: Invert orientation of placed belts.<br>
 
@@ -410,11 +414,6 @@ shopUpgrades:
 
 # Buildings and their name / description
 buildings:
-    hub:
-        deliver: Deliver
-        toUnlock: to unlock
-        levelShortcut: LVL
-
     belt:
         default:
             name: &belt Conveyor Belt

@@ -42,30 +42,30 @@ steamPage:
         [b]Standalone Advantages[/b]
 
         [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
+            [*] Wegpunkte
+            [*] Unbegrenzte Anzahl von Spielständen
+            [*] Dunkler Modus
+            [*] Mehr Einstellungen
+            [*] Erlaube es mir weiter an shapez.io zu entwickeln  ❤️
+            [*] Mehr Funktionen in der Zukunft!
         [/list]
 
-        [b]Planned features & Community suggestions[/b]
+        [b]Geplante Funktionen & Community vorschläge[/b]
 
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        Diese Spiel ist open source - Jeder kann dazu beitragen! Abgesehen davon höre ich [b]sehr viel[/b] auf die Community! Ich versuche alle vorschläge zu lesen und soviel feedback einzubeziehen wie nur möglich.
 
         [list]
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] Color blind mode
-            [*] And much more!
+            [*] Story-Modus, in dem Gebäude Formen kosten
+            [*] Mehr Gebäude und Levels (nur in der einzelstehenden Version)
+            [*] Mehr Karten und villeicht auch Hindernisse auf diesen
+            [*] Einstellbare Kartenerstellung (Ändere die Grösse und Anzahl von Resourcenflicken, Seed, und mehr)
+            [*] Mehr Typen von Formen
+            [*] Mehr Performanceverbesserungen (Auch wenn das Spiel bereits ganz gut läuft)
+            [*] Farbenblinder-Modus
+            [*] Und viel mehr!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        Schau dir auch das Trello-board for alle Planungen an! https://trello.com/b/ISQncpJP/shapezio
 
 global:
     loading: Laden
@@ -98,7 +98,7 @@ global:
         # Short formats for times, e.g. '5h 23m'
         secondsShort: <seconds>s
         minutesAndSecondsShort: <minutes>m <seconds>s
-        hoursAndMinutesShort: <hours>h <minutes>s
+        hoursAndMinutesShort: <hours>h <minutes>m
 
         xMinutes: <x> Minuten
 
@@ -133,24 +133,24 @@ mainMenu:
     contests:
         contest_01_03062020:
             title: "Contest #01"
-            desc: Win <strong>$25</strong> for the coolest base!
+            desc: Gewinne <strong>$25</strong> für dir beste Basis!
             longDesc: >-
-                To give something back to you, I thought it would be cool to make weekly contests!
+                Um euch etwas zurückzugeben dachte ich, dass es eine coole Idee ist, wöchentliche Wettbewerbe durchzuführen!
                 <br><br>
-                <strong>This weeks topic:</strong> Build the coolest base!
+                <strong>Thema dieser Woche:</strong> Baue die coolste Basis!
                 <br><br>
-                Here's the deal:<br>
+                Hier ist ein Deal:<br>
                 <ul class="bucketList">
-                    <li>Submit a screenshot of your base to <strong>contest@shapez.io</strong></li>
-                    <li>Bonus points if you share it on social media!</li>
-                    <li>I will choose 5 screenshots and propose it to the <strong>discord</strong> community to vote.</li>
-                    <li>The winner gets <strong>$25</strong> (Paypal, Amazon Gift Card, whatever you prefer)</li>
-                    <li>Deadline: 07.06.2020 12:00 AM CEST</li>
+                    <li>Sende einen Screenshot deiner Basis an <strong>contest@shapez.io</strong></li>
+                    <li>Bonuspunkte wenn du die Basis auf sozialen Medien teilst!</li>
+                    <li>Ich wähle 5 Screenshots und schlage dieser der Community auf <strong>Discord</strong> vor, um abzustimmen.</li>
+                    <li>Der Gewinner bekommt <strong>$25</strong> (Paypal, Amazon Gift Card, was du willst)</li>
+                    <li>Einsendeschluss: 07.06.2020 12:00 AM CEST</li>
                 </ul>
                 <br>
-                I'm looking forward to seeing your awesome creations!
+                Ich freue mich deine tollen Kreationen zu sehen!
 
-        showInfo: View
+        showInfo: Anschauen
         contestOver: Dieser Wettbewerb ist vorbei! Tritt dem discord server bei, um über neue Wettbewerbe informiert zu werden!
 
 dialogs:
@@ -173,76 +173,76 @@ dialogs:
             Fehler beim Importieren deines Speicherstands:
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: Spielstand importieren
         text: >-
-            Your savegame has been successfully imported.
+            Dein Spielstand wurde erfolgreich importiert
 
     gameLoadFailure:
-        title: Game is broken
+        title: Der Spielstand ist kaputt
         text: >-
-            Failed to load your savegame:
+            Der Spielstand konnte nicht geladen werden.
 
     confirmSavegameDelete:
-        title: Confirm deletion
+        title: Bestätige Löschung
         text: >-
-            Are you sure you want to delete the game?
+            Bist du sicher das du diesen Spielstand löschen willst?
 
     savegameDeletionError:
-        title: Failed to delete
+        title: Löschung fehlgeschlagen
         text: >-
-            Failed to delete the savegame:
+            Löschung des Spielstandes fehlgeschlagen.
 
     restartRequired:
-        title: Restart required
+        title: Neustart benötigt
         text: >-
-            You need to restart the game to apply the settings.
+            Ein Neustart ist benötigt um die Einstellungen anzuwenden.
 
     editKeybinding:
-        title: Change Keybinding
-        desc: Press the key or mouse button you want to assign, or escape to cancel.
+        title: Steuerung ändern
+        desc: Drücke den Tastatur- oder Mausknopf um diesen festzulegen oder drücke Escape zum abbrechen.
 
     resetKeybindingsConfirmation:
-        title: Reset keybindings
-        desc: This will reset all keybindings to their default values. Please confirm.
+        title: Steuerung zurücksetzen
+        desc: Dies setzt die Steuerung auf die Standarteinstellungen zurück. Bitte bestätigen.
 
     keybindingsResetOk:
-        title: Keybindings reset
-        desc: The keybindings have been reset to their respective defaults!
+        title: Steuerung zurückgesetzt
+        desc: Die Steuerung wurde auf ihre jeweilige Standarteinstellung zurückgesetzt!
 
     featureRestriction:
-        title: Demo Version
-        desc: You tried to access a feature (<feature>) which is not available in the demo. Consider to get the standalone for the full experience!
+        title: Demoversion
+        desc: Du hast versucht ein Feature (<feature>) welches nicht in der Demoversion vorhanden ist zu benutzen. Kaufe die vollversion für die volle Spielerfahrung!
 
     saveNotPossibleInDemo:
-        desc: Your game has been saved, but restoring it is only possible in the standalone version. Consider to get the standalone for the full experience!
+        desc: Dein Spielstand wurde gespeichert, aber wiederherstellen ist nur in der Standaloneversion möglich. Kaufe die vollversion für die volle Spielerfahrung!
 
     leaveNotPossibleInDemo:
-        title: Demo version
-        desc: Your game has been saved, but you will not be able to restore it in the demo. Restoring your savegames is only possible in the full version. Are you sure?
+        title: Demoversion
+        desc: Dein Spielstand wurde gespeichert, aber du bist nicht in der Lage diesen in der Demoversion wiederherzustellen. Das wiederherstellen von Spielständen ist nur in der Standaloneversion möglich. Bist du sicher?
 
     newUpdate:
-        title: Update available
-        desc: There is an update for this game available, be sure to download it!
+        title: Update verfügbar
+        desc: Ein update ist verfügbar, lade es so schnell wie möglich runter!
 
     oneSavegameLimit:
-        title: Limited savegames
-        desc: You can only have one savegame at a time in the demo version. Please remove the existing one or get the standalone!
+        title: Limitierte Spielstände
+        desc: Du kannst in der Demoversion immer nur ein Spielstand gleichzeitig haben. Bitte lösche den vorhandenen Spielstand oder kaufe die Standaloneversion!
 
     updateSummary:
-        title: New update!
+        title: Neues Update!
         desc: >-
-            Here are the changes since you last played:
+            Hier sind die Veränderungen seit deinem letzten mal Spielen
 
     hintDescription:
         title: Tutorial
         desc: >-
-            Whenever you need help or are stuck, check out the 'Show hint' button in the lower left and I'll give my best to help you!
+            Wenn du hilfe brauchst oder nicht weiter kommst, Schaue dir den 'Show hint' Knopf in der linken unteren Ecke an und ich gebe mein Bestes dir zu helfen!
 
     upgradesIntroduction:
-        title: Unlock Upgrades
+        title: Upgrade freischalten
         desc: >-
-            All shapes you produce can be used to unlock upgrades - <strong>Don't destroy your old factories!</strong>
-            The upgrades tab can be found on the top right corner of the screen.
+            Alle Formen die du produzierst können benutzt werden um neue Upgrades freizuschalten - <strong>Zerstöre deine alten Fabriken nicht!</strong>
+            Der Upgradereiter kann in der rechten oberen Ecke gefunden werden.
 
     massDeleteConfirm:
         title: Confirm delete
